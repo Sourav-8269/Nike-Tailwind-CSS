@@ -19,7 +19,7 @@ const Hero = () => {
         </h1>
         <p className='font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, nesciunt?</p>
         <Button label="Show now" iconURL={arrowRight} />
-        <div className='flex justify-start items-center flex-wrap w-full border border-red-400 gap-16 mt-20'>
+        <div className='flex justify-start items-center flex-wrap w-full gap-16 mt-20'>
           {statistics.map((el)=>(
             <div key={el.label}>
               <p className='font-palanquin font-bold text-4xl'>{el.value}</p>
