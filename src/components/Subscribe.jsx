@@ -1,7 +1,7 @@
 import Button from "./Button"
 const Subscribe = () => {
   return (
-    <div className='max-container flex justify-between items-center max-lg:flex-col gap-10 ' id="contact us">
+    <div className='max-container flex justify-between items-center max-lg:flex-col gap-10 ' id="contact-us">
       <h3 className='font-palanquin text-4xl leading-[68px] font-bold'>Sign Up Form
       <span className='text-coral-red'> Updated </span>
       & Newsletter</h3>
